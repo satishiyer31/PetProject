@@ -1,8 +1,8 @@
 import { createContext, useState, useContext, useEffect } from "react";
 
 
-const petFinderKey = 'GDqDG1ZrAE2oA2D1zSfP96XsKcu80r3RxUftUriTPOBNB5a7T8';
-const petFinderSecret = '2YCsDdJVKrnPF4EzJlJbXwr9aMHVmDC0Tu6iuJ00' ;
+const petFinderKey = 'x5HLqYqM8HDHJ5m2id99hhR1oDJkk8osNlLESGenCvBuiZSQVP';
+const petFinderSecret = 'q3IabuCTq4c1KAjC3jViKNluLYxQNYSP7FCfVJCs' ;
 
 
 export const PetAuthContext = createContext();
