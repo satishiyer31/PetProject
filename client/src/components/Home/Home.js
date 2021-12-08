@@ -46,7 +46,8 @@ export default function Home() {
       `https://api.petfinder.com/v2/animals?type=${pets}&location=${zip}`, //&breed=${breed}&distance=${distance}`,
       {
         headers: {
-          Authorization: `Bearer ${accessToken}`,
+          'Authorization': `Bearer ${accessToken}`
+          // 'Access-Control-Allow-Origin': '*'
         },
       }
     );
